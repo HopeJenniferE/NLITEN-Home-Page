@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Poppins:wght@200&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+body {
+    background: #F6F7F8;
+    
+  }
+  /*==================SIGN IN=================*/
+  .card-img-left {
+    width: 55%;
+  }
+  .sign{
+    background: scroll center url('Images/image\ 9.png');
+    background-size: cover;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .logoo{
+    width:6%;
+    height:2%;
+    margin-left:75%;
+    margin-bottom: 15px;;
+  
+}
+.l-nlitt{
+  margin-right:10px;
+
+}
+.L-nlit span{
+padding-bottom: 7%;
+
+}
+.btn1:hover{
+    background:#F6F7F8;
+    border: 1px solid;
+    color:#FAA107;
+}
+  
+/*===================STUDENT REGISTRATION===================*/
+
+  
+  .card-img-left {
+    width: 50%;
+   
+  }
+  .reg{
+    padding:0;
+    background-repeat:no-repeat;
+    background-color: #FAA107;
+    background-position: relative;
+   
+  }
+  .card-img-left img{
+    width:90%;
+    height:60%;
+   margin-top: 20%;
+   margin-left: 5%;
+  
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  .trms{
+    color:#FAA107;
+  }
+  .p-no span{
+    background-color: white;
+  }
+  .p-no input{
+    border:none;
+  }
+ 
+ /*=====================RECRUITERS REGISTRATION=======*/
+
+ .account-block {
+    padding: 0;
+   
+    background-repeat: no-repeat;
+  background-color: #FAA107;
+    height: 100%;
+    position: relative;
+}
+.account-block img{
+  width:90%;
+  height:60%;
+ margin-top: 20%;
+ margin-left: 5%;
+}
+.account-block .account-text {
+ 
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1rem;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+}
+.account-block .account-texts {
+ 
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1rem;
+    bottom: 4rem;
+    left: 0;
+    right: 0;
+}
+.account-texts i{
+  margin-bottom:480px;
+  font-size:12px;
+  color:white;
+}
+.account-text i{
+  margin-bottom:450px;
+  font-size:12px;
+  color:white;
+}
+
+.text-theme {
+    color: #FAA107 !important;
+}
+
+.btn-theme {
+    background-color: #FAA107;
+    border-color: #FAA107;
+    color: #fff;
+}
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext {
+  padding: 0rem 0.75rem;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating{
+  height: calc(2.5rem + 2px);
+  line-height: 1;
+}
+.form-select{
+    height: calc(1.5rem + 1px);
+    line-height: 1;
+    
+  }
+
+.form-floating>label {
+  padding: 0.5rem 0.75rem;
+}
+.titl{
+    font-size: smaller;
+}
